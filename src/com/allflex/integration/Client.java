@@ -1,14 +1,12 @@
 package com.allflex.integration;
 
-public class Client
-{
+public class Client {
     /// <summary>
     /// Initializes a new instance of the <see cref="Client"/> class.
     /// </summary>
     /// <param name="apiKey">The API key.</param>
     /// <param name="apiUrl">The API URL.</param>
-    public Client(String apiKey, String apiUrl)
-    {
+    public Client(String apiKey, String apiUrl) {
         throw new UnsupportedOperationException();
     }
     
@@ -17,8 +15,7 @@ public class Client
     /// </summary>
     /// <param name="status">The status.</param>
     /// <returns></returns>
-    public static String GetStatusString(OrderStatusEnum status)
-    {
+    public static String GetStatusString(OrderStatusEnum status) {
         throw new UnsupportedOperationException();
     }
 
@@ -27,8 +24,7 @@ public class Client
     /// </summary>
     /// <param name="status">The status</param>
     /// <returns></returns>
-    public static OrderStatusEnum GetStatusEnum(String status)
-    {
+    public static OrderStatusEnum GetStatusEnum(String status) {
         throw new UnsupportedOperationException();
     }
 
@@ -37,8 +33,7 @@ public class Client
     /// </summary>
     /// <param name="status">The status.</param>
     /// <returns></returns>
-    public boolean PostStatus(OrderStatus status)
-    {
+    public boolean PostStatus(OrderStatus status) {
         throw new UnsupportedOperationException();
     }
 
@@ -47,8 +42,7 @@ public class Client
     /// </summary>
     /// <param name="wsOrderId">The ws order identifier.</param>
     /// <returns></returns>
-    public OrderStatus GetOrderStatus(String wsOrderId)
-    {
+    public OrderStatus GetOrderStatus(String wsOrderId) {
         throw new UnsupportedOperationException();
     }
 
@@ -58,8 +52,7 @@ public class Client
     /// <param name="order">The order.</param>
     /// <returns></returns>
     /// <exception cref="Exception"></exception>
-    public OrderHeader PostOrder(OrderHeader order)
-    {
+    public OrderHeader PostOrder(OrderHeader order) {
         throw new UnsupportedOperationException();
     }
 
@@ -68,8 +61,7 @@ public class Client
     /// </summary>
     /// <param name="saveFile">if set to <c>true</c> [save file].</param>
     /// <returns></returns>
-    public Document RetrieveOrders()
-    {
+    public Document RetrieveOrders() {
         throw new UnsupportedOperationException();
     }
 }
